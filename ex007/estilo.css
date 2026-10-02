@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+*{
+
+    margin: 0px;
+
+}
+
+@font-face {
+    font-family: "segundo";
+    src: url("fontes/AcademyFilled3D.ttf") format("opentype");
+}
+
+body{
+    padding: 10px;
+    
+
+}
+section h1{
+
+    font-family: "segundo";
+    font-weight: lighter;
+    padding: 50px;
+    font: 50pt  "segundo";
+    
+}
+section{
+
+    margin-top: 50px;
+     max-width: 1299px;
+     min-width: 300px;
+     padding-top: 20px;
+     margin-bottom: 30px;
+  
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: auto;
+   object-position: center center;
+   margin-top: 50px;
+   text-align: center;
+   box-shadow: 0px 0px 10px #0000004f;
+   background-image: url("imagens/tecnologia.png");
+
+}
+.quadrado{
+
+   width: 250px;
+   height: 250px;
+   border: 3px solid #07945e7c;
+   display: inline-block;
+    border-radius: 5px;
+    margin: 10px 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px #00000056 ;
+    
+
+}
+div#q1{
+     background-image: url("imagens/letra-c.png");
+     background-repeat: no-repeat;
+     background-position: center center;
+}
+div#q2{
+
+   background-image: url("imagens/letra-j.png");
+    background-repeat: no-repeat;
+     background-position: center center;
+}
+div#q3{
+
+    background-image: url("imagens/letra-a.png");
+     background-repeat: no-repeat;
+     background-position: center center;
+}
+div#numeros{
+
+    padding: 50px;
+    margin-bottom: 30px;
+}
+div#numeros{
+
+    margin: auto 10%;
+}
+.red{
+
+    width: 55px;
+    border-radius: 50px;
+    outline: none;
+    border-style: double;
+    text-decoration: none;
+    text-align: center  ;
+    font: 20pt arial;
+    font-weight: bold;
+
+}
+input#b{
+
+    margin-left: 10px;
+    width: 60px;
+    height: 40px;
+    border-radius: 50px;
+    margin-top: 0%;
+}
+div#a{
+
+    max-width: 897px;
+    min-width: 300px;
+    
+   
+    padding: 0px;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+input#n4{
+
+    margin-left: 120px;
+}
+input#n6{
+
+    margin-right: 116px;
+}
+input#n1{
+    margin-left: 30px;
+}
+div#seta{
+
+    background-image: url("imagens/seta.png");
+    width: 400px;
+    height: 30px;
+    margin: auto 50%;
+    background-repeat: no-repeat;
+    padding: 30px;
+    
+}
+.reta{
+
+    height: 500px;
+    width: 140px;
+    background-color: #fdfffe9c;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #000000;
+}
+div#r1:hover{
+     
+  background-image: linear-gradient(to top, #0000ffb9 , #ff0000a8 , #ffff00d0);
+
+}
+div#r2:hover{
+
+     background-image: linear-gradient(to top, #ff4800b9 , #00ff0da8 , #00ffead0);
+}
+div#r3:hover{
+
+     background-image: linear-gradient(to top, #f80becb9 , #8e04ffd0 , #d2f316d0);
+}
+div#r4:hover{
+
+     background-image: linear-gradient(to top, #ff1100a6 , #36ff04ab , #166ef3be);
+}
+ div#r5:hover{
+
+     background-image: linear-gradient(to top, #f80becb9 , #8e04ffd0 , #d2f316d0);
+}
+div#r6:hover{
+
+     background-image: linear-gradient(to top, #0bf832b9 , #ff6904d0 , #f316e8d0);
+}
+div#r7:hover{
+
+     background-image: linear-gradient(to top, #a3fabdb9 , #eeff04d0 , #2516f3d0);
+}
+div#r8:hover{
+
+     background-image: linear-gradient(to top, #fd09f1b9 , #04ffead0 , #f07b0dd0);
+}
+div#r9:hover{
+
+     background-image: linear-gradient(to top, #e8f80bb9 , #42f70bd0 , #af0feed0);
+}
