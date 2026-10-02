@@ -13,6 +13,7 @@
 
 body{
     padding: 10px;
+    background-image: url("imagens/tecnologia.png");
     
 
 }
@@ -105,16 +106,16 @@ div#a{
 
     max-width: 897px;
     min-width: 300px;
-    
-   
-    padding: 0px;
     margin: auto;
-    background-color: #ffffff;
+    background-color: #ffffffa4;
     border-radius: 10px;
 }
 input#n4{
 
     margin-left: 120px;
+}
+input#n4:active{
+    background-color: #000000;
 }
 input#n6{
 

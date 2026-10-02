@@ -10,15 +10,15 @@ cx9 = document.getElementById(`n9`)
 
 //DIVS COLORIDAS
 
-div1 = document.getElementById("r2")
-div2 = document.getElementById("r1")
-div3 = document.getElementById("r3")
-div4 = document.getElementById("r4")
-div5 = document.getElementById("r5")
-div6 = document.getElementById("r6")
-div7 = document.getElementById("r7")
-div8 = document.getElementById("r8")
-div9 = document.getElementById("r9")
+res1 = document.getElementById("r1")
+res2 = document.getElementById("r2")
+res3 = document.getElementById("r3")
+res4 = document.getElementById("r4")
+res5 = document.getElementById("r5")
+res6 = document.getElementById("r6")
+res7 = document.getElementById("r7")
+res8 = document.getElementById("r8")
+res9 = document.getElementById("r9")
 
 let numeros = []
 
@@ -46,22 +46,13 @@ if( numero_9(cx1.value)){
 else{
 
 
-    if(cx2.value.length == 0 || cx3.value.length == 0  || cx4.value.length == 0 || cx5.value.length == 0  || cx6.value.length == 0 || cx7.value.length == 0  || cx8.value.length == 0  || cx9.value.length == 0 ){
+    if(cx2.value.length == 0 || cx2.value.length > 1|| cx3.value.length == 0 ||  cx3.value.length > 1  || cx4.value.length == 0 ||  cx4.value.length > 1|| cx5.value.length == 0 ||  cx5.value.length > 1  || cx6.value.length == 0 || cx6.value.length > 1 || cx7.value.length == 0 ||  cx7.value.length > 1 || cx8.value.length == 0 ||  cx8.value.length > 1  || cx9.value.length == 0 ||  cx9.value.length > 1 ){
 
         alert(" verifica os dados introduzidos ")
     }
     else{
 
-    n1 = Number(cx1.value)
-    n2 = Number(cx2.value)
-    n3 = Number(cx3.value)
-    n4 = Number(cx4.value)
-    n5 = Number(cx5.value)
-    n6 = Number(cx6.value)
-    n7 = Number(cx7.value)
-    n8 = Number(cx8 .value)
-    n9 = Number(cx9.value)
-
+   
     numeros.push(n1)
     numeros.push(n2)
     numeros.push(n3)
@@ -71,28 +62,27 @@ else{
     numeros.push(n7)
     numeros.push(n8)
     numeros.push(n2)
-
   
     
-    
-    
-    
-    
-    
-
-
-    alert(numeros)
-
     }
-
    
-
-
-   
-    
 }
 
- 
+
+}
+
+function clicado (){
+     
+     n1 = Number(cx1.value)
+    n2 = Number(cx2.value)
+    n3 = Number(cx3.value)
+    n4 = Number(cx4.value)
+    n5 = Number(cx5.value)
+    n6 = Number(cx6.value)
+    n7 = Number(cx7.value)
+    n8 = Number(cx8 .value)
+    n9 = Number(cx9.value)
+
   
 }
 
